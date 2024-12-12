@@ -12,7 +12,7 @@ import { Menu, X } from "lucide-react";
 import { DropdownMenu, DropdownMenuItem, DropdownMenuTrigger, DropdownMenuContent } from "./components/ui/dropdown-menu";
 import { Avatar, AvatarImage, AvatarFallback } from "./components/ui/avatar";
 import { ThemesWitcher } from "./components/themSwitcher";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer  } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Dashboard } from "./pages/Dahsbord";
 
