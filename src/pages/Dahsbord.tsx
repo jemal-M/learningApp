@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "../components/ui/chart"
-import { ResponsiveContainer, LineChart, Line, BarChart, Bar, PieChart, Pie, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Cell } from 'recharts'
+import { ResponsiveContainer, LineChart, Line, BarChart, Bar, PieChart, Pie, AreaChart, Area, XAxis, YAxis, CartesianGrid, Legend, Cell } from 'recharts'
 
 // Placeholder data - replace with your actual data
 const userData = [
@@ -93,7 +93,7 @@ export function Dashboard() {
                     fill="#8884d8"
                     dataKey="value"
                   >
-                    {passFailData.map((entry, index) => (
+                    {passFailData.map((_entry, index) => (
                       <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                     ))}
                   </Pie>
