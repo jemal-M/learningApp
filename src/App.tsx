@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import   { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { Home, BookOpen, Clipboard, BarChart2, Users, Calendar,LayoutDashboard } from "lucide-react"; // Importing icons
+import {   BookOpen, Clipboard, BarChart2, Users, Calendar,LayoutDashboard } from "lucide-react"; // Importing icons
 import LessonsPage from "./pages/LessonsPage";
 import HomePage from "./pages/Home";
 import QuizzesPage from "./pages/QuizzesPage";
